@@ -1,0 +1,1 @@
+export const topHeadlinesSelector = (state) => state.topHeadlines
