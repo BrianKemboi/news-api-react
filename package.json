@@ -2,6 +2,7 @@
   "name": "react-news-api",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://briankemboi.github.io/news-api-react/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.5.0",
     "@testing-library/jest-dom": "^5.11.6",
@@ -18,7 +19,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -38,6 +40,7 @@
   "devDependencies": {
     "css-loader": "^5.0.1",
     "dotenv": "^8.2.0",
+    "gh-pages": "^3.1.0",
     "postcss-loader": "^4.1.0",
     "sass": "^1.29.0",
     "sass-loader": "^10.1.0"
